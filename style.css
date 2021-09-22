@@ -1,65 +1,92 @@
-.nav{
+.nav {
   display: flex;
   justify-content: center;
-
- 
-  
 }
-
-.nav1{
+.nav1 {
+  width: 500px;
+  margin-left: 1000px;
+  color: rgb(236, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav2 {
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-evenly;
 }
-.block1{
+.block1 {
   height: 500px;
-  background-color: rgb(125, 125, 185);
+  background-image: url("image3.jpg");
+  background-size: 100% 100%;
 }
-.names{
+.names {
   text-align: center;
 }
 
-.block2{
-height:300px;
+.block2 {
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.linkedin{
+.linkedin {
   height: 50px;
-  width: 50px;
-  background-color: rgb(18, 18, 82);
-  color:white;
-  font-size:50;
-  border-radius: 50%;
-
+  width: 90px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-size: 50;
 }
 
-.block3{
-  height: 600px;
-  background-color:rgb(228, 205, 209)
+.block3 {
+  height: 500px;
+  background-color: rgb(4, 5, 12);
+  color: rgb(236, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.subheading{
-  width: 150;
-  
+.subheading {
+  width: 900px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.subblock{
+.subblock {
   height: 250px;
   width: 200px;
-  background-color: white;
-  margin-left:50px
+  background-color: rgb(236, 233, 233);
+  margin-left: 50px;
 }
 
-.project{
-  width: 700px;
-  display:block;
+.project2 {
+  width: 1000px;
+  display: block;
   margin-left: auto;
-margin-right: auto;
+  margin-right: auto;
 }
 
-.demo{
-  background-color:pink;
-  border-radius: 10%;
-  
-  padding: 50;
-  justify-content: center;
+.block4 {
+  height: 600px;
+}
+.block5 {
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block6 {
+  height: 400px;
+  background-color: rgb(4, 5, 12);
+  color: rgb(236, 233, 233);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading1 {
+  color: rgb(236, 233, 233);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project1 {
+  display: flex;
+  justify-content: space-between;
 }
