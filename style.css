@@ -24,16 +24,13 @@
 }
 
 .block2 {
-  height: 400px;
+  height: 500px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.linkedin {
-  height: 50px;
-  width: 90px;
-  background-color: rgb(20, 20, 20);
-  color: white;
-  font-size: 50;
+.link {
+  text-decoration: none;
+  color: rgb(236, 233, 233);
 }
 
 .block3 {
@@ -65,9 +62,6 @@
   margin-right: auto;
 }
 
-.block4 {
-  height: 600px;
-}
 .block5 {
   height: 400px;
   font-family: Arial, Helvetica, sans-serif;
